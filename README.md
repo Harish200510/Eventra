@@ -7,16 +7,27 @@
 ## 📸 Screenshots
 
 <!-- Add your screenshots here -->
+## Landing Page
 ![Landing Page](./ss/landing.png) 
+## Explore Events
 ![Explore Events](./ss/explore.png) 
+## Dashboard
 ![Dashboard](./ss/dashboard.png) 
+## profile
 ![profile](./ss/profile.png) 
-![request](./ss/request.png) 
+## Send request
+![request](./ss/request.png)
+## Receive request
 ![request](./ss/request1.png) 
+## eventdetails
 ![eventdetails](./ss/eventdetails.png) 
+## editevent
 ![editevent](./ss/editevent.png) 
+## sendjoinrequest
 ![sendjoinrequest](./ss/sendjoinrequest.png) 
+## findteamwithai
 ![findteamwithai](./ss/findteamwithai.png)
+## createevent
 ![createevent](./ss/createevent.png)
 
 
@@ -117,97 +128,8 @@ messages          — id, chat_room_id, sender_id, message_text, created_at
 
 ---
 
-## ⚙️ Getting Started
-
-### Prerequisites
-- Node.js 18+
-- A Supabase project
-- An Anthropic API key (for AI features)
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/Harish200510/eventra.git
-cd eventra
-```
-
-### 2. Install dependencies
-```bash
-npm install
-```
-
-### 3. Set up environment variables
-
-Create a `.env` file in the root:
-```env
-VITE_SUPABASE_URL=your_supabase_project_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
-Find these in **Supabase Dashboard → Settings → API**.
-
-### 4. Run the development server
-```bash
-npm run dev
-```
-
-Open [http://localhost:8080](http://localhost:8080) in your browser.
-
----
-
-## 🤖 AI Setup (Write with AI feature)
-
-The AI message writer uses a Supabase Edge Function to securely call the Anthropic API.
-
-### Deploy the Edge Function
-```bash
-# Install Supabase CLI
-npm install -g supabase
-
-# Login and link project
-supabase login
-supabase link --project-ref YOUR_PROJECT_REF
-
-# Deploy function
-supabase functions deploy ai-write-message
-
-# Set API key secret
-supabase secrets set ANTHROPIC_API_KEY=your_anthropic_key
-```
-
----
-
-## 🚢 Deployment
-
-### Deploy on Vercel
-
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com) → New Project → Import repo
-3. Add environment variables:
-   - `VITE_SUPABASE_URL`
-   - `VITE_SUPABASE_ANON_KEY`
-4. Click **Deploy**
-
-### Update Supabase Auth URLs
-
-After deploying, go to **Supabase → Authentication → URL Configuration**:
-```
-Site URL:      https://your-app.vercel.app
-Redirect URLs: https://your-app.vercel.app/**
-```
-
----
-
-## 🔐 Environment Variables
-
-| Variable | Description |
-|---|---|
-| `VITE_SUPABASE_URL` | Your Supabase project URL |
-| `VITE_SUPABASE_ANON_KEY` | Your Supabase anonymous key |
-
-> ⚠️ Never commit your `.env` file. It is already in `.gitignore`.
-
----
 
 
 
-<p align="center">Built with ❤️ using React, Supabase, and Claude AI</p>
+
+<p align="center">Built with ❤️ using React, Supabase</p>
