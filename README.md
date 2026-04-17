@@ -14,11 +14,7 @@
 
 ---
 
-## 🚀 Live Demo
 
-🔗 [eventra.vercel.app](https://eventra.vercel.app)
-
----
 
 ## ✨ Features
 
@@ -204,18 +200,6 @@ Redirect URLs: https://your-app.vercel.app/**
 
 ---
 
-## 📜 License
 
-This project is built for academic purposes as part of UBCA398J – Project I at VIT Vellore.
-
----
-
-## 👨‍💻 Author
-
-**Harish Kumar V**  
-23BCA0009 | VIT Vellore  
-Under the guidance of **Dr. Thanga Mariappan L**
-
----
 
 <p align="center">Built with ❤️ using React, Supabase, and Claude AI</p>
