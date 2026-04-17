@@ -10,7 +10,15 @@
 ![Landing Page](./ss/landing.png) 
 ![Explore Events](./ss/explore.png) 
 ![Dashboard](./ss/dashboard.png) 
-![Chat](./ss/chat.png) 
+![profile](./ss/profile.png) 
+![request](./ss/request.png) 
+![request](./ss/request1.png) 
+![eventdetails](./ss/eventdetails.png) 
+![editevent](./ss/editevent.png) 
+![sendjoinrequest](./ss/sendjoinrequest.png) 
+![findteamwithai](./ss/findteamwithai.png)
+![createevent](./ss/createevent.png)
+
 
 ---
 
