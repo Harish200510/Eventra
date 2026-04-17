@@ -7,10 +7,10 @@
 ## 📸 Screenshots
 
 <!-- Add your screenshots here -->
-[Landing Page](./ss/landing.png) -->
-[Explore Events](./ss/explore.png) -->
-[Dashboard](./ss/dashboard.png) -->
-[Chat](./ss/chat.png) -->
+<![Landing Page](./ss/landing.png) -->
+<![Explore Events](./ss/explore.png) -->
+<![Dashboard](./ss/dashboard.png) -->
+<![Chat](./ss/chat.png) -->
 
 ---
 
